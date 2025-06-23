@@ -1,3 +1,6 @@
+document.getElementById("saveBtn").addEventListener("click", saveNote);
+document.getElementById("loadBtn").addEventListener("click", loadNote);
+
 function saveNote() {
   const date = document.getElementById("noteDate").value;
   const content = document.getElementById("noteContent").value;
